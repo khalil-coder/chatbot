@@ -94,7 +94,7 @@ export default function SendMessage() {
         />
         <span
           className="input-group-text bi-telegram text-primary"
-          
+          style={{display: hideSendBtn}}
           onClick={onChange}
         ></span>
       </div>
