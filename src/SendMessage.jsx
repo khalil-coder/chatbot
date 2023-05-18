@@ -35,7 +35,7 @@ export default function SendMessage() {
         setAllReplies([...allReplies, response.data.response]);
        
       })
-      .catch((error) => alert(error));
+      .catch((error) => console.log(error));
   }
   useEffect(() => Message(), [chat]);
 
