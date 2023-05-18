@@ -45,7 +45,6 @@ export default function SendMessage() {
     const text = document.querySelector("#text-input")
     text.value.length != 0 ? setChat(text.value) :alert("Message box can't be empty")
      text.value.length !=0 && setAllChats([...allChats, text.value])
-  
     text.value = "";
     setBtn("none")
    
